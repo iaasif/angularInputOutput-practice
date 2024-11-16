@@ -40,6 +40,9 @@ export class Test1Service {
     },
   ];
 
+  getDemoQuestion() {
+    return this.demoQuestions;
+  }
   protected demoData: Idata[] = [
     {
       id: 1,
@@ -67,4 +70,8 @@ export class Test1Service {
       description: 'This is the description for Item Five.',
     },
   ];
+
+  getDemoData(): Idata[] {
+    return this.demoData;
+  }
 }
