@@ -15,6 +15,8 @@ export class ParentComponent {
   parentDataFromService: Test1Service = Inject(Test1Service);
   DemoDataFromParentDataService: Idata[] = [];
 
+  testParentText: string = 'hello  ';
+  aTestVar: string = 'bg-yellow-400 rounded-lg p-2';
   testMethod() {
     console.log('hi bro form test method');
   }
